@@ -1,0 +1,58 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-image: url(../assets/images/header-bg.jpg);
+    background-attachment:fixed; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 500px; 
+}
+
+.mds{
+    padding-top: 2%; 
+    margin-top: 6%;
+    margin-bottom: 6%; 
+    padding-bottom: 2%; 
+}
+
+.mds2{
+    font-size: 1.5 rem ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.margins{
+    margin-bottom: 2%; 
+}
+
+.formulario{
+    background-attachment:fixed; 
+    margin-top: 5%;
+    padding: 8%; 
+    background-image: url(../assets/images/map-image.png);
+    background-color: black; 
+}
+
+.decoration{
+    text-decoration: none; 
+}
+
+.card{
+    border: none;  
+}
+
+.footer{
+    background-image: url(../assets/images/header-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
