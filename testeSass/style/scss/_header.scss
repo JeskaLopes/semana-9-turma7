@@ -1,0 +1,12 @@
+$black: #000000;
+
+nav.navbar{
+
+    .botaoX{
+        @include button(10px, 30px, $color-secondary, #cccccc)
+    }
+
+    h1{
+        @include title(uppercase, #000000)
+    }
+}
