@@ -1,0 +1,25 @@
+.banner{
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    height: 85vh;
+    overflow: hidden;
+
+    .banner-content{
+        height:85vh;
+        @include flex(flex-end, center);
+    }
+    .parallax-image{
+        width:100%;
+
+        img{
+            width:30%;
+            margin-bottom: -192px; 
+        }
+
+    }
+
+    .banner-text{
+        width:50%;
+    }
+} 
+

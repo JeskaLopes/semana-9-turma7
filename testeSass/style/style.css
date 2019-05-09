@@ -1,13 +1,128 @@
-nav.navbar .botaoX {
-  padding: 10px 30px;
-  background: #ffff;
-  text-transform: capitalize;
-  color: #cccccc;
+body {
+  font-family: 'Open-Sans', sans-serif;
+  margin: 0;
 }
 
-nav.navbar h1 {
-  font-size: 24px;
-  text-transform: uppercase;
-  color: #000000;
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.header {
+  padding: 20px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header h1 {
+  margin: 0 0 0 10px;
+  font-size: 20px;
+  width: 10px;
+  color: #ffff;
+}
+
+.header .navbar-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .navbar-right li + li {
+  margin-left: 30px;
+}
+
+.header .navbar-right li a {
+  color: #ffff;
+}
+
+.header .logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .logo-container img {
+  width: 50px;
+}
+
+.banner {
+  background-image: url(../images/bg3.jpg);
+  background-size: cover;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.banner .banner-content {
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner .parallax-image {
+  width: 100%;
+}
+
+.banner .parallax-image img {
+  width: 30%;
+  margin-bottom: -192px;
+}
+
+.banner .banner-text {
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
